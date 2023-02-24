@@ -1,4 +1,9 @@
-/* ---------------------------------------------------------------------------------------------(-_-) CENTER-HEADER (-_-)--------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------(-_-) LEFT-HEADER (-_-)--------------------------------------------------------------- */
+.d-flex.align-items-center.my-2:focus{
+    font-weight: 900;
+
+}
+/* ---------------------------------------------------------------------------------------------(-_-) CENTER-MAIN (-_-)--------------------------------------------------------------- */
 .pro{
     width: 10%;
     height: auto;
@@ -16,27 +21,21 @@
     align-items: center;
     justify-content: center;
 }
+
+
 .flow{
     width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.text-black{
-    display: inline-block;
-    position: relative;
-    padding-bottom: 0.25rem;
-}
-.text-black::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 2px;
-    background-color: blue;
-}
-.text-black:hover::before{
-    width: 100%;
+.text-dark:focus{
+   border-bottom:4px solid rgb(3, 128, 230);
    
+}
+
+/* ---------------------------------------------------------------------------------------------(-_-) RIGHT-FOTHER (-_-)--------------------------------------------------------------- */
+.btn.btn-light:hover{
+    background-color: aliceblue;
+    border: none;
 }
