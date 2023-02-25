@@ -39,3 +39,48 @@
     background-color: aliceblue;
     border: none;
 }
+
+
+/* ---------------------------------------------------------------------------------------------(-_-)EDIT PROFIL (-_-)--------------------------------------------------------------- */
+
+
+.edit-name,.edit-bio,.edit-location,.edit-website{
+    border: 1px solid rgb(201, 201, 201);
+}
+.edit-name input{
+    border: none;
+}
+.edit-name input:focus{
+    outline: none;
+}
+.edit-bio input{
+    border: none;
+}
+.edit-bio input:focus{
+    outline: none;
+}
+.edit-location input{
+    border: none;
+}
+.edit-location input:focus{
+    outline: none;
+}
+.edit-website input{
+    border: none;
+}
+.edit-website input:focus{
+    outline: none;
+}
+
+ul .nav-item:focus{
+    border-bottom: 3px solid blue;
+}
+
+/* ---------------------------------------------------------------------------------------------(-_-)Login (-_-)--------------------------------------------------------------- */
+.main{
+    width: 700px;
+    height: 700px;
+    background-color: aliceblue;
+    margin: 40px auto;
+    border-radius: 15px;
+}
