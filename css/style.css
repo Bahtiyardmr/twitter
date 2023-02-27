@@ -154,3 +154,15 @@ ul .nav-item:focus{
     color: blue;
     outline-color: rgb(56, 116, 228);
 }
+
+#Ucnokta{
+    width: auto;
+    height: auto;
+    position: absolute;
+    border-radius: 15px;
+    display: none;
+    background-color: white;
+    top: 530px;
+    box-shadow: 10px 10px 10px rgb(187, 184, 184);
+   
+}
